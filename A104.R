@@ -1,7 +1,11 @@
-#A103 v0.4
+#A103 v0.5
 
 library("data.table")
 library("rpart")
 
 cat( "impresion oultima" )
-cat( "una mas adelante")
+
+imprimir  <- function( x )
+{
+  cat( "una mas adelante")
+}
