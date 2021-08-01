@@ -7,5 +7,8 @@ cat( "impresion oultima" )
 
 imprimir  <- function( x )
 {
-  cat( "una mas adelante")
+  for( i in 1:10 )
+  {
+    cat( "una mas adelante")
+  }
 }
